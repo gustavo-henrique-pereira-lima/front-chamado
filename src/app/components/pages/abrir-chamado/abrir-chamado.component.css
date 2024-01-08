@@ -1,0 +1,22 @@
+h1{
+    display: flex;
+    justify-content: center;
+}
+.box-chamado{
+    display: flex;
+    justify-content: center;
+}
+
+.caixa-esquerda{
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    background-color: aqua;
+}
+
+.caixa-direita{
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    background-color: cadetblue;
+}
