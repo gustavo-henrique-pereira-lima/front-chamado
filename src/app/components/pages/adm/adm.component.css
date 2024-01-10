@@ -1,0 +1,30 @@
+.geral{
+    display: flex;
+    justify-content: center;
+}
+.filtro{
+    background-color: aqua;
+    width: 350px;
+    height: 350px;
+}
+.historico{
+    background-color: brown;
+    width: 350px;
+    height: 350px;
+}
+.lista-chamados{
+    background-color: blueviolet;
+    width: 1000px;
+    height: 620px;
+    overflow: auto;
+}
+
+.chamado{
+    background-color: darkgoldenrod;
+    height: 100px;
+}
+.barra-tarefas{
+    background-color: cadetblue;
+    width: 1000px;
+    height: 80px;
+}
