@@ -1,47 +1,67 @@
 <!-- Criação da branch abertura de chamado -->
+<body>
 <div class="box-chamado">
     
-    <form action="">
-
-        <h1>Abertura de chamado</h1>
+    <form class="forms1" action="">
+        <div class="topo">
+            <h1>Abertura de chamado</h1>
+        </div>
 
         <div class="avisos">
             <h2>Avisos</h2>
         </div>
 
-        <br>
 
-        <div class="input-box">
-            <input type="text" placeholder="Digite seu nome" >
+    <div class="Boxinf"> 
+
+        <div class="infessence"> 
+            <div class="input-box">
+                <input type="text" placeholder="Digite seu nome" >
+            </div>
+
+
+            <div class="setores">
+                <select name="setor">
+                    <option value="setor" selected>Setor</option>
+                    <option value="atec">atec</option>
+                    <option value="conjur">conjur</option>
+                    <option value="daf">daf</option>
+                    <option value="dcon">dcon</option>
+                    <option value="dcoop">dcoop</option>
+                    <option value="ddics">ddics</option>
+                    <option value="digem">digem</option>
+                    <option value="diren">diren</option>
+                    <option value="gabinete">gabinete</option>
+                    <option value="nci">nci</option>
+                    <option value="ncom">ncom</option>
+                    <option value="nplan">nplan</option>
+                    <option value="nuinf">nuinf</option>
+                    <option value="saga">saga</option>
+                    <option value="secad">secad</option>
+                    <option value="secop">secop</option>
+                    <option value="terpaz">terpaz</option>
+                </select>
+            </div>
         </div>
-        
-        <br>
 
-        <div class="setores">
-            <select name="setor">
-                <option value="setor1" selected>Setor 1</option>
-                <option value="setor2">Setor 2</option>
-                <option value="setor3">Setor 3</option>
-            </select>
-        </div>
-
-        <br>
 
         <div class="input-text">
             <textarea name="" id="" cols="48" rows="10" placeholder="Descreva seu problema"></textarea>
         </div>
 
-        <br>
 
         <div class="caixa-enviar">
-            <select name="urgencia">
+            <select class="selec" name="urgencia">
                 <option value="urgencia1" selected>Urgencia 1</option>
                 <option value="urgencia2">Urgencia 2</option>
                 <option value="urgencia3">Urgencia 3</option>
             </select>
-            <button>Enviar</button>
+            <button class="butenv">Enviar</button>
         </div>
+
+    </div>
 
     </form>
 
 </div>
+</body>

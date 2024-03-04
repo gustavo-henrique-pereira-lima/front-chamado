@@ -24,7 +24,7 @@ h1{
 }
 
 .setores select{
-    width: 50%;
+    width: 100%;
     font-size: 20px;
 }
 
@@ -34,13 +34,92 @@ h1{
     font-size: 20px;
 }
 
-.caixa-enviar{
-    display: flex;
-    justify-content: center;
-}
 
-.caixa-enviar button{
+
+/****************************************************************/
+
+/* Estilização e Otimização */
+
+
+.box-chamado {
+    background-color: aqua;
+    display: inline-flex;
+    inline-size: auto;
+    align-content: space-evenly;
+    flex-wrap: wrap;
+    position: relative;
     width: 100%;
 }
 
-/****************************************************************/
+form.forms1 {
+    padding: 10px;
+    background-color: red;
+    padding-inline: 70px;
+    width: 50%;
+    height: 550px;
+}
+
+.Boxinf {
+    background-color: yellow;
+    height: 57%;
+    margin: 10px;
+    padding: 10px;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+
+.input-box {
+    width: 50%;
+    margin-right: 20px;
+}
+
+textarea {
+    max-height: 200px;
+    max-width: 540px;
+    min-width: 540px;
+    min-height: 200px;
+    
+}
+
+.setores {
+    width: 49%;
+}
+
+.infessence {
+    display: inline-flex;
+    width: 98%;
+    align-items: center;
+    background-color: aquamarine;
+    padding-block: 10px;
+    padding-inline: 10px;
+    margin-bottom: 20px;
+}
+
+.caixa-enviar{
+    width: 100%;
+    display: inline-flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+select.selec {
+    width: 20%;
+}
+
+button.butenv {
+    width: 20%;
+}
+
+/* =================================================================*/
+
+body {
+    background: #333;
+    justify-content: flex-end;
+    align-items: flex-end;
+    min-height: 100vh;
+}
+  
